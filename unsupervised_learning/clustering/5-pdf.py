@@ -38,3 +38,4 @@ def pdf(X, m, S):
     X_m_dot_X_m = np.sum(X_m_dot * X_m, axis=1)
     P = fac * np.exp(-0.5 * X_m_dot_X_m)
     return np.maximum(P, 1e-300)
+
