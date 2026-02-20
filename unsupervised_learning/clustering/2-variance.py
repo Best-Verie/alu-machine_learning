@@ -27,4 +27,4 @@ def variance(X, C):
     mini = np.min(mean, axis=0)
     var = np.sum(mini ** 2)
     return np.sum(var)
-    
+ 
